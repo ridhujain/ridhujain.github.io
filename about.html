@@ -17,6 +17,17 @@
     <link rel="stylesheet" href="css/styles-merged.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/custom.css">
+    <style>
+      /* Custom style to reduce space between sections */
+      .probootstrap-section {
+        margin-bottom: 0; /* Remove bottom margin */
+        padding-bottom: 0; /* Remove bottom padding */
+      }
+
+      .probootstrap-section + .probootstrap-section {
+        margin-top: -70px; /* Add space between consecutive sections */
+      }
+    </style>
 
     <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
@@ -62,20 +73,19 @@
   <section class="probootstrap-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <p><img src="img/mine.jpg" class="img-responsive" alt="Personal Image" width="400px"></p>
+        <!-- Image Column -->
+        <div class="col-md-5">
+          <img src="img/mine.jpg" class="img-responsive" alt="Personal Image" width="400px">
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-7 col-md-push-5">
+        <!-- Text Column -->
+        <div class="col-md-7">
           <h2>About Me</h2>
           <p>A versatile graphic designer with over 4 years of freelancing expertise and 2 years as an Executive Graphic Designer at Flipkart, one of India's leading digital commerce entities, specializes in UI & surface design.</p>
-          <!-- <p>Riddhi Jain is a talented graphic designer currently working at Flipkart in Bengaluru, Karnataka, India. With a Bachelor's degree in Apparel and Textiles from Maharaja Sayajirao University of Baroda and a certification in Graphic Design from Kshtij Vivan Institute, she brings a unique blend of creativity and technical skills to her work. </p> -->
-          <!-- </p>Riddhi has been a key player in digital marketing and campaign design, leveraging her expertise in Adobe Creative Suite to craft compelling visual content. Alongside her role at Flipkart, she has also been a successful freelance graphic designer, demonstrating her versatility and commitment to excellence in design.</p> -->
         </div>
       </div>
     </div>
   </section>
+  
   <section class="probootstrap-section probootstrap-section-left">
     <div class="container">
       <div class="row">
